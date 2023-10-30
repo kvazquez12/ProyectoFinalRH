@@ -26,11 +26,3 @@ app.use(notFound);
 app.listen(process.env.PORT || 3000, () => {
     console.log("Server is runing...");
 })
-
-// Verbos 
-// HTTP
-// GET - Obtener recursos
-// POST - Almacenear/crear recursos
-// PATCH - Modificar una parte de un recurso
-// PUT - Modificar un recurso completo
-// DELETE - Borrar un recurso

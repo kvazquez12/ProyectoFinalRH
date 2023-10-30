@@ -1,5 +1,5 @@
 {
-  "name": "express-workshop",
+  "name": "proyectofinalrh",
   "version": "1.0.0",
   "description": "An API REST using expressjs",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kvazquez12/express-workshop.git"
+    "url": "git+https://github.com/kvazquez12/ProyectoFinalRH.git"
   },
   "keywords": [
     "api",
@@ -20,9 +20,9 @@
   "author": "Kilian Vazquez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kvazquez12/express-workshop/issues"
+    "url": "https://github.com/kvazquez12/ProyectoFinalRH/issues"
   },
-  "homepage": "https://github.com/kvazquez12/express-workshop#readme",
+  "homepage": "https://github.com/kvazquez12/ProyectoFinalRH#readme",
   "dependencies": {
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
