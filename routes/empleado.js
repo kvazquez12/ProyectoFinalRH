@@ -12,7 +12,7 @@ empleado.post("/", async (req, res, next) => {
         const rows = await db.query(query);
     
         if(rows.affectedRows == 1) {
-            return res.status(201).json({ code: 201, message: "empleado insertado correctamente"});
+            return res.status(201).json({ code: 201, message: "Empleado insertado correctamente"});
         }
 
         return res.status(500).json({ code: 500, message: "Ocurrio un error" })
