@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const express = require('express');
 const app = express();
 //Routers
-const pokemon = require('./routes/pokemon');
+const empleado = require('./routes/empleado');
 const user = require('./routes/user')
 //Middleware
 const auth = require('./middleware/auth')
@@ -20,17 +20,9 @@ app.get("/", index)
 
 app.use("/user", user);
 app.use(auth);
-app.use("/pokemon", pokemon);
+app.use("/empleado", empleado);
 app.use(notFound);
 
 app.listen(process.env.PORT || 3000, () => {
     console.log("Server is runing...");
 })
-
-// Verbos 
-// HTTP
-// GET - Obtener recursos
-// POST - Almacenear/crear recursos
-// PATCH - Modificar una parte de un recurso
-// PUT - Modificar un recurso completo
-// DELETE - Borrar un recurso
