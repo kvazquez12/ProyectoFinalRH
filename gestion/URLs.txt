@@ -1,0 +1,13 @@
+Integrantes del Proyecto Final:
+Kilian Iván Artemio Vázquez Cárdenas
+Jocelyne Gallegos Arroyo
+Daniel Alejandro Treviño Garza
+
+Enlace al Proyecto Final:
+https://github.com/kvazquez12/ProyectoFinalRH
+
+Enlace portafolio de evidencias del taller Kilian:
+https://github.com/kvazquez12/express-workshop
+
+Enlace portafolio de evidencias del taller Daniel:
+https://github.com/DanielTG01/express_workshop
